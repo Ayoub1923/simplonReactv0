@@ -2,7 +2,7 @@ import React from 'react'
 import imgSimplon from './images/s.png'
 
 const listes=["Acceuil","A propos","Equipe","Contact"]
-const socialMedia=["fa fa-facebook fa-2x","fa fa-linkedin fa-2x","fa fa-google-plus fa-2x"]
+const socialMedia=["fab fa-facebook-f","fab fa-linkedin-in","fab fa-google-plus-g"]
 const Navbar=()=>{
 return(
 
