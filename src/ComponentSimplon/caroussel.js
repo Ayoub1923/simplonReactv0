@@ -2,7 +2,7 @@ import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
 import carousel1 from './images/carousel1.jpg'
 import carousel2 from './images/carousel2.jpg'
-import carousel3 from './images/carousel3.png'
+import carousel3 from './images/carousel5.jpg'
 
 
 const items = [

@@ -1,7 +1,7 @@
 import React from'react'
 import Etapes from './etapes'
 
-const parcours=[{logo:"fas fa-flag-checkered",title:"félicitation ,vous étes simplonien",desc:"bienvenue parmis simplon"},{logo:"fas fa-laptop-code",title:"félicitation ,vous étes simplonien",desc:"bienvenue parmis simplon"},{logo:"fas fa-user-graduate",title:"félicitation ,vous étes simplonien",desc:"bienvenue parmis simplon"},{logo:"fas fa-theater-masks",title:"félicitation ,vous étes simplonien",desc:"bienvenue parmis simplon"}]
+const parcours=[{logo:"fas fa-flag-checkered",title:"félicitation ,vous étes simplonien",desc:"Initiez-vous gratuitement au code sur notre plateforme en ligne : HTML, CSS et JavaScript"},{logo:"fas fa-laptop-code",title:"félicitation ,vous étes simplonien",desc:"bienvenue parmis simplon"},{logo:"fas fa-user-graduate",title:"félicitation ,vous étes simplonien",desc:"bienvenue parmis simplon"},{logo:"fas fa-theater-masks",title:"félicitation ,vous étes simplonien",desc:"bienvenue parmis simplon"}]
 
 const Defsimplon = () =>{
 
@@ -14,7 +14,7 @@ const Defsimplon = () =>{
    {parcours.map(el => <Etapes etape={el}   />)}
    </ul>
 
-   <button>read more</button>
+   <a href="" className="btn">En savoir plus</a>
 
    
     </div>
