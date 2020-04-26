@@ -7,7 +7,8 @@ import Defsimplon from './ComponentSimplon/quoiSimplon'
 import Impact from './ComponentSimplon/impact'
 import Mininavbar from './ComponentSimplon/mininavbar'
 import Reglement from './ComponentSimplon/reglement'
-
+import Page from './comp1'
+import "./comp.css"
 
 import Team from './Team/team'
 import mouna from './Team/mouna.jpg'
@@ -36,13 +37,12 @@ function Ap() {
      <Impact />
      <Reglement />
      
-
+     <Page />
   <Team Team={team}/>
      <Footer />
     
   
-    
->>>>>>> marwa
+  
     </div>
   );
 }
