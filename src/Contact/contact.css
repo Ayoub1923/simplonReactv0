@@ -1,0 +1,62 @@
+.map-class{
+    margin-top: 20px;
+    height: 150px;
+}
+.formulaire{
+    margin-top: 30px;
+}
+.information{
+    margin-top: 30px;
+}
+
+::placeholder{
+    color: black;
+}
+.t-input{
+    width:800px;
+    border-radius: 20px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    padding-left: 20px;
+}
+.pos-form{
+    background-image: url("../Team/tt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.send{
+    border-color:#CF0031;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+   
+}
+.send:hover{
+    background-color: #CF0031
+}
+@media only screen and (min-width: 600px) {
+    pos-form{
+        display: block;
+     width: 100%;
+    }
+    h2{
+        font-size: 10%;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .pos-form{
+        display: block;
+        width: 90%;
+    }
+    h2{
+        font-size: 10%;
+    }
+
+}
