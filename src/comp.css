@@ -11,7 +11,72 @@
   text-align: justify;
   font-size: 1.2em;
 }
-
 .video{
   margin:70px;
+}
+
+.objectives{
+  margin: 50px 0;
+  width: 100%;
+  background-color: rgb(170, 165, 165);
+  display: flex;
+  justify-content: space-evenly;
+}
+.car{
+  width: 40%;
+  background-color: rgb(226, 217, 217);
+  text-align: center;
+  padding: 20px 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.carTitle{
+  background-color: rgb(122, 43, 43);
+  font-family: 'Courgette', cursive;
+  color: aliceblue;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 70%;
+  line-height: 100px;
+  clip-path: polygon(0px 30%,100% 10%,100% 70%,0px 90%);
+}
+.pic{
+  width:70%;
+  height:35%;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 0 0 10px black;
+}
+.descriptor{
+font-family:cursive;
+text-align: justify;
+padding: 0px 40px;
+line-height: 25px;
+font-size: 1.2em;
+}
+.further{
+  cursor: pointer;
+  width: 40%;
+  height: 10%;
+  margin-left: 200px;
+  color: red;
+  font-size: 1.2em;
+  background: white;
+  font-weight: bold;
+  border:1px solid black;
+  border-radius: 10px;
+}
+@media (max-width : 768px){
+ .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
