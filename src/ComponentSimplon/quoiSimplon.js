@@ -1,7 +1,7 @@
 import React from'react'
 import Etapes from './etapes'
 
-const parcours=[{logo:"fas fa-flag-checkered",title:"félicitation ,vous étes simplonien",desc:"Initiez-vous gratuitement au code sur notre plateforme en ligne : HTML, CSS et JavaScript"},{logo:"fas fa-laptop-code",title:"félicitation ,vous étes simplonien",desc:"bienvenue parmis simplon"},{logo:"fas fa-user-graduate",title:"félicitation ,vous étes simplonien",desc:"bienvenue parmis simplon"},{logo:"fas fa-theater-masks",title:"félicitation ,vous étes simplonien",desc:"bienvenue parmis simplon"}]
+const parcours=[{logo:"fas fa-flag-checkered",title:"Félicitation ,vous étes simplonien",desc:"Initiez-vous gratuitement au notre formation sur notre plateforme en ligne"},{logo:"fas fa-laptop-code",title:"840 HEURES DU CODING RÉPARTIS SUR 6 MOIS",desc:"Le programme de formation couvre les 4 technologies web les plus utilisées sur le web : HTML, CSS, JavaScript,SQL."},{logo:"fas fa-user-graduate",title:"Félicitation ,vous étes développeur Full Stack",desc:"Certification de niveau 5 (équivalent bac +2)"},{logo:"fas fa-theater-masks",title:"EN ACTIVITÉ PROFESSIONNELLE",desc:"Salarié en entreprise,free-lance ou créateur de startup."}]
 
 const Defsimplon = () =>{
 
@@ -14,7 +14,7 @@ const Defsimplon = () =>{
    {parcours.map(el => <Etapes etape={el}   />)}
    </ul>
 
-   <a href="" className="btn">En savoir plus</a>
+   <a href="https://drive.google.com/drive/folders/1nZeFxKwWtA1et9w2g2sEMte_Kon7H8t4" className="btn">En savoir plus</a>
 
    
     </div>

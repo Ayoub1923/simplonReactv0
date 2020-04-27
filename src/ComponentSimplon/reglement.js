@@ -11,7 +11,7 @@ const reglement = () => {
                 <li><i class="fas fa-angle-double-down"></i></li>
 
             </ul>
-          <a href="https://www.commentcamarche.net/forum/affich-126391-image-lien-html"><img src={reg} alt="réglement intérieur" /></a>
+          <a href="https://opencommons.simplon.co/thematiques/5"><img src={reg} alt="réglement intérieur" /></a>
         </div>
     );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
-import carousel1 from './images/carousel1.jpg'
-import carousel2 from './images/carousel2.jpg'
+import carousel1 from './images/aa.jpg'
+import carousel2 from './images/carousel6.png'
 import carousel3 from './images/carousel5.jpg'
 
 
@@ -21,6 +21,7 @@ const items = [
     altText: 'Slide 3',
     key: '3'
   }
+  
 ];
 
 const Example = () => <UncontrolledCarousel items={items} />;
