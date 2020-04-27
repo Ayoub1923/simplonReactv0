@@ -2,6 +2,7 @@
   margin: 50px 0;
   width: 100%;
   display: flex;
+  background: linear-gradient(red,white);
   justify-content: space-evenly;
   align-items: center;
 }
@@ -59,13 +60,14 @@ font-size: 1.2em;
   width: 40%;
   height: 10%;
   margin-left: 200px;
-  color: red;
+  color: rgb(247, 239, 239);
   font-size: 1.2em;
-  background: white;
+  background: rgb(92, 73, 73);
   font-weight: bold;
   border:1px solid black;
-  border-radius: 10px;
+  border-radius: 20px;
 }
+
 @media (max-width : 768px){
  .intro{
     display: flex;
