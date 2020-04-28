@@ -1,5 +1,5 @@
 import React from 'react'
-import imgSimplon from './images/logo-simplon.png'
+import imgSimplon from './images/SIMPLON_TUNISIE.png'
 
 const listes=["Acceuil","A propos","Equipe","Contact"]
 const Navbar=()=>{

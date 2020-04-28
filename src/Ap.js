@@ -14,8 +14,10 @@ import Team from './Team/team'
 import mouna from './Team/mouna.jpg'
 import  cyrine from './Team/cyrine.jpg'
 import  hamza from './Team/hamza.jpg'
+import Footer from  './footer'
 
-import Footer from './footer/footer'
+import Partenaire from './ComponentSimplon/partenaire'
+import Contact from './ComponentSimplon/contact'
 
 const team = [
   {name:"Mouna Ayari",poste:"Gerant" ,img:mouna},
@@ -31,16 +33,15 @@ function Ap() {
     <div className="App">
       <Mininavbar />
      <Navbar />
-
      <Caroussel />
      <Defsimplon />
      <Impact />
      <Reglement />
-     
      <Page />
-  <Team Team={team}/>
-     <Footer />
-    
+    <Team Team={team}/>
+    <Partenaire />
+     <Contact />
+    <Footer />
   
   
     </div>

@@ -10,7 +10,6 @@ const Impact =() =>{
 
     return (
         <div className="impact">
-           <h2>Notre Impact</h2>
     <ul className="impact_data">
         {impact.map(el=><Impacts elImp={el} />)}
         </ul>

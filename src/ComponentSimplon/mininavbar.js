@@ -1,6 +1,6 @@
 import React from 'react';
 
-const socialMedia=["fab fa-facebook-f","fab fa-linkedin-in","fab fa-twitter","fab fa-google-plus-g","fab fa-youtube"]
+const socialMedia=[{lien:"https://www.facebook.com/SimplonTunis/",logo:"fab fa-facebook-f"},{lien:"https://www.linkedin.com/company/simplon-tunis",logo:"fab fa-linkedin-in"},{lien:"",logo:"fab fa-twitter"},{lien:"",logo:"fab fa-google-plus-g"},{lien:"https://www.youtube.com/channel/UCTFYd2sOfjrJH1C421UyYuQ",logo:"fab fa-youtube"}]
 
 const Mininavbar = () => {
     return (
@@ -9,7 +9,7 @@ const Mininavbar = () => {
 
 </i></div>
 <ul class="list-social-media">
-  {socialMedia.map(el=><li><i className={el}></i></li>)}
+  {socialMedia.map(el=><a href={el.lien}><li><i className={el.logo}></i></li></a>)}
   </ul></div>
     );
 };

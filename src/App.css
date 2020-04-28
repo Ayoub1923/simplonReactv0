@@ -5,7 +5,7 @@
 }
 /*mini-navbar*/
 .mini-navbar{
-  background-color: rgba(0, 0, 0, 0.738);
+  background-color: #363636;
   display: flex;
   justify-content: space-between;
   padding:12px 20px 0 20px;
@@ -50,7 +50,8 @@
 }
 img[alt="image-simplon"]{ 
   margin-left: 15px;
-  height:75px;
+  height:50px;
+  width:170px
   
 }
 .list-social-media{
@@ -58,22 +59,29 @@ img[alt="image-simplon"]{
   display: flex;
   list-style: none;
   align-items: center;
-  color: white;
+  color: white ;
   float: left;
   justify-content: space-evenly;
   width:250px;
   font-family: 'Montez', cursive;
 
 }
+.list-social-media a{
+  color: white;
+}
 .navR{
   color: white;
   line-height: 20px;
+  
 }
 
 .list-social-media li .fab{ 
 background-color: transparent;  
+text-decoration: none;
+
  }
  .list-social-media li .fab:hover{
+   color: white;
   width: 30px;
   height: 30px;
   font-size: 17px;
@@ -107,27 +115,33 @@ background-color: transparent;
 
 }
 
+
 .carousel-item > img { 
-  filter: grayscale(40%) ;
   height: 600px; 
-}
+
+ }
+  img[ src= carousel3]{
+
+ filter:  brightness(170%)
+ }
 .carousel-control-next,
 .carousel-control-prev {
     filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
 }
 
-.what_simplon{
-  margin: 50px 0 0 20px;
-}
+
 .what_simplon h2{
-  font-family: 'Monoton', cursive;
-  font-size: 40px;
+  margin-left: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: red;
+  font-size: 42px;
+  margin-bottom: 15px;
 }
 .what_simplon h2:after {
   width: 490px;
   display:block;
   content: '';
-  border-bottom: solid 3px red;  
+  border-bottom: solid 3px black;  
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
 }
@@ -155,37 +169,40 @@ h2.fromRight:after{ transform-origin:100% 50%; }
    justify-content: space-evenly;
  }
  .listes_activity h5{
+  text-transform: uppercase;
     margin-top: 30px;
     margin-left: -30px;
-    width:180px;
-    color: #DD5735;
+    width:200px;
+    color: red;
     font-family: 'Cabin Condensed', sans-serif;
     text-align: center;
 
  }
  .listes_activity li p{
   margin-left: -20px;
-  width:180px;
+  width:220px;
   font-family: 'Pontano Sans', sans-serif;
 font-size: 12px;
 color: black;
 
  }
  .what_simplon{
-   margin-left: 30px;
-   margin-bottom: 30px;;
+  background-image: url(https://jevelin.shufflehound.com/mobile-app/wp-content/uploads/sites/38/2019/11/2slideparal.jpg);
+
+   padding:50px 30px;
  }
  .what_simplon p{
-   margin-left: 40px;
-   width: 70%;
+   margin-left: 100px;
+   width: 83%;
    text-align: justify;
    font-family: 'Cabin Condensed', sans-serif;
 
 font-size: 17px;
  }
  .what_simplon h1{
-   margin-top: 40px;
+   margin-top: 20px;
   font-family: 'Fondamento', cursive;
+  text-shadow:gray 1px 0 10px;;
   text-align: center;
   font-size: 40px;
 
@@ -232,6 +249,7 @@ font-size: 17px;
   width: auto;
   margin-top: 50px;
 }
+/*
 .impact h2{
   margin-left: 20px;
  font-size: 45px;
@@ -239,9 +257,8 @@ font-size: 17px;
  background-color: black;
  border-radius: 8px;
  width: 300px;
-
-
 }
+*/
 .impact_data li{
   border-right: 1px solid gray;
 
@@ -258,6 +275,7 @@ font-family: 'Playfair Display', serif;
 
 }
 .impact_data li>h4{
+  margin-top: 10px;
 text-transform: uppercase;
 font-size: 18px;
 font-weight: 700;
@@ -267,7 +285,9 @@ font-family: 'Raleway', sans-serif;
 
 }
 .reglement{
-  padding: 30px 0;
+  background-image: url(https://cdn.jevelin.shufflehound.com/education/wp-content/uploads/sites/20/2018/06/Inside-pages3.jpg);
+
+  padding: 40px 0;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -284,3 +304,123 @@ font-family: 'Raleway', sans-serif;
   font-size: 35px;
   color: red;
 }
+/* partenaire */
+.partenaire{
+  padding: 100px 0 60px 0;
+background-image: url(https://cdn.jevelin.shufflehound.com/wp-content/uploads/2016/03/Home_5_partners_back.jpg);
+ text-align: center;
+
+ height: 350px;
+
+}
+.partenaire h2{
+  margin-top: -50px;
+  font-size: 40px;
+  color: white;
+  font-family: 'Fredericka the Great', cursive;
+
+}
+
+.logo_car2 img{
+  width: 170px;
+}
+.logo_car3 img{
+  margin-top: 60px;
+
+  width: 170px;
+}
+
+.logo_car1 img{
+  margin-top: 70px;
+  width: 220px;
+}
+.contact{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.contact h5{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 8px;
+  color: #8d8d8d;
+  font-size: 20px;
+}
+.contact h1{
+text-align: center;  color: #000;   font-family: 'Montez', cursive;
+
+}
+.contact a:hover{
+  text-decoration: none;
+}
+.contact-word1 h1:hover{
+  text-decoration: none;
+    color: #55acee;
+  }
+  .contact-word2 h1:hover{
+    color: #3b5998;
+  }
+  .contact-word3 h1:hover{
+    color: red;
+  }
+.contact-word1 {
+
+  background-image: url("https://cdn.jevelin.shufflehound.com/wp-content/uploads/2016/01/Soc_twit.png");
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 33%;
+  
+
+  padding: 170px 15px 190px 15px;
+}
+.contact-word2{
+  background-image: url(ComponentSimplon/images/Soc_fb.png);
+  padding: 170px 15px 190px 15px;
+  background-color: #f7f7f7;
+  background-position: 50% 50%;
+  background-image: url(//cdn.jevelin.shufflehound.com/wp-content/uploads/2016/01/Soc_fb.png);
+  width: 34%;
+}
+.contact-word3{
+  background-image: url(ComponentSimplon/images/Soc_yt.png);
+width: 33%;
+padding: 170px 15px 190px 15px;
+background-color: #ececec;
+background-size: cover;
+background-position: 50% 50%;
+
+
+}
+.footer img{
+height: 50px;
+}
+.footer-el{
+  cursor: pointer;
+  margin: -14px;
+  list-style: none;
+  background-color:#262626;
+  color:white;
+  padding: 30px 0 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-els {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 1px solid red;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+.footer-els:hover{
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+
+}
+.pg{
+ font-size: 22px;
+}
+ .fa-star i{
+   margin-top: 30px;
+ }
