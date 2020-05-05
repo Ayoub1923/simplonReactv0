@@ -18,6 +18,7 @@ import Footer from  './footer'
 
 import Partenaire from './ComponentSimplon/partenaire'
 import Contact from './ComponentSimplon/contact'
+import Main from './ComponentSimplon/main' 
 
 const team = [
   {name:"Mouna Ayari",poste:"Gerant" ,img:mouna},
@@ -31,17 +32,7 @@ const team = [
 function Ap() {
   return (
     <div className="App">
-      <Mininavbar />
-     <Navbar />
-     <Caroussel />
-     <Defsimplon />
-     <Impact />
-     <Reglement />
-     <Page />
-    <Team Team={team}/>
-    <Partenaire />
-     <Contact />
-    <Footer />
+      <Main />
   
   
     </div>

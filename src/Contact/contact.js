@@ -37,13 +37,13 @@ function Contact()
          <h2>Simplon Tunis</h2>
          <p>Un réseau de fabriques numériques </p>
          <h2>Contact</h2>
-         <p><i class="fa fa-envelope"></i> Simplon@gmail.com </p>
-         <p><i class="fa fa-phone"></i>95 85 24 56 </p>
+         <p><i class="fas fa-envelope"></i> Simplon@gmail.com </p>
+         <p><i class="fas fa-phone"></i>95 85 24 56 </p>
          <p>
-         <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
-            <a  href="#"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+         <a href="#"><i class="fab fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+            <a  href="#"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
            
-            <a  href="#"><i class="fa fa-linkedin"></i></a>  &nbsp;&nbsp;&nbsp;
+            <a  href="#"><i class="fab fa-linkedin-in"></i></a>  &nbsp;&nbsp;&nbsp;
          </p>
          <h2>Adresse</h2>
          <p><i class="fa fa-map-marker-alt"></i>15 Avenue De Carthage, Tunis 1001 </p>
